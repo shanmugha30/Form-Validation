@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <h1>Signup Today!</h1>
+        <form id="form">
+            <!----First Name---->
+            <div>
+                <label>FirstName</label>
+                <input type="text" placeholder="Enter FirstName" minlength="8" required>
+            </div>
+            <!----LastName---->
+            <div>
+                <label>LastName</label>
+                <input type="text" placeholder="Enter LastName" minlength="8" required>
+            </div>
+            <!----email---->
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="Enter @gmail.com" minlength="15" required>
+            </div>
+            <!----Password---->
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="Enter password" minlength="8" required id="password">
+            </div>
+            <!----confirm Password---->
+            <div>
+                <label>ConfirmPassword</label>
+                <input type="password" placeholder="Enter password" minlength="8" required id="confirmpassword">
+            </div>
+            <!---message--->
+            <h3 id="message">Please Register!</h3>
+            <!----submit---->
+        <center>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </center>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
